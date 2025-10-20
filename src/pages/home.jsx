@@ -22,6 +22,9 @@ export default function Home() {
         <Button onClick={() => (window.location.href = "/poke-api")}>
           Ir a trabajar!
         </Button>
+          <Button onClick={() => (window.location.href = "/player")}>
+          Ver player
+        </Button>
       </div>
     </section>
   );
