@@ -25,6 +25,9 @@ export default function Home() {
           <Button onClick={() => (window.location.href = "/player")}>
           Ver player
         </Button>
+              <Button onClick={() => (window.location.href = "/portfolio")}>
+          Ver portfolio
+        </Button>
       </div>
     </section>
   );

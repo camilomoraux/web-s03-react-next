@@ -4,6 +4,7 @@ import PokeApi from "@/pages/poke-api";
 import NotFound from "@/pages/not-found";
 import Counter from "@/pages/counter";
 import Player from "@/pages/player";
+import Porfolio from "@/pages/portfolio";
 
 export const router = createBrowserRouter([
     { path: "/", element: <Home /> },
@@ -11,4 +12,5 @@ export const router = createBrowserRouter([
     { path: "/counter", element: <Counter /> },
     { path: "*", element: <NotFound /> },
     { path: "/player", element: <Player /> },
+    { path: "/portfolio", element: <Porfolio />}
 ]);
